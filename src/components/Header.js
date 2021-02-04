@@ -24,13 +24,13 @@ class Header extends Component{
             <nav className={`nav-bar ${this.state.toggleShow ? "show" : ""}`}>
                 <ul>
                     <li>
-                        <a>About</a>
+                        <a href="http://lmgtfy.com">About</a>
                     </li>
                     <li>
-                        <a>Projects</a>
+                    <a href="http://lmgtfy.com">Projects</a>
                     </li>
                     <li>
-                        <a>Contact</a>
+                    <a href="http://lmgtfy.com">Contact</a>
                     </li>
                 </ul>
             </nav>

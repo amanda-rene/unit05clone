@@ -1,3 +1,98 @@
 body {
-  background-image: url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+  background: url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg") no-repeat center center fixed;
+  font-family: monospace;
+  width: 100vh;
+  
 }
+
+header{
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin-top: 20px;
+  
+}
+
+header > div {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.start{
+  margin-left: 50px;
+}
+
+.nav-bar  {
+  width: 20%;
+  max-width: 250px;
+  
+}
+
+.nav-bar ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-bar a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+main{
+  min-height: calc(100vh - 80px);
+  margin-top: 500px;
+}
+
+#nav-btn{
+  display: none;
+}
+
+@media screen and (max-width:1000px){
+  header{
+    height: 80px;
+    width: 100vh;
+    min-width: 600px;
+    background-color:white;
+    position: fixed;
+  
+    transition: .5s;
+    transition-timing-function: ease-out;
+  }
+
+  #nav-btn{
+    display: inline-block;
+  }
+
+  .nav-bar ul{
+    display: none;
+  }
+}
+
+ main {
+   width: 800px;
+  display: flex;
+  font-family: monospace;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 400px;
+ 
+}
+
+.title{
+  font-size: 50px;
+}
+
+
+
+
+

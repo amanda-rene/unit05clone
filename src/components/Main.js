@@ -4,13 +4,11 @@ const Main = () => {
 
     return(
         <main>
-            <div className="title">
-                GRAYSCALE
-            </div>
-            <p>A free, responsive, one page Bootstrap theme
-                <br></br>
-                created by Bootstrap.</p>
+            <div>
+                <p className="title">Grayscale</p>
+            <p className="text">A free, responsive, one page Bootstrap theme created by Bootstrap.</p>
                 <button className="main-btn">GET STARTED</button>
+            </div>
         </main>
     )
 }
